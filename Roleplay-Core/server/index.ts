@@ -20,7 +20,7 @@ import * as inventorycmds from '@Plugins/Roleplay-Core/server/examples/Inventory
 import * as jobcmds from '@Plugins/Roleplay-Core/server/examples/JobCMDS.js';
 import * as moneycmds from '@Plugins/Roleplay-Core/server/examples/MoneyCMDS.js';
 import * as vehiclecmds from '@Plugins/Roleplay-Core/server/examples/VehicleCMDS.js';
-import * as vehicleinventorycmds from '@Plugins/Roleplay-Core/server/examples/VehicleInventoryCMDS.js';
+//import * as vehicleinventorycmds from '@Plugins/Roleplay-Core/server/examples/VehicleInventoryCMDS.js';
 
 exampleitems.initfunc();
 examplejobs.initfunc();
@@ -28,11 +28,11 @@ inventorycmds.initfunc();
 jobcmds.initfunc();
 moneycmds.initfunc();
 vehiclecmds.initfunc();
-vehicleinventorycmds.initfunc();
+//vehicleinventorycmds.initfunc();
 
-import * as VehicleInventoryAPi from '@Plugins/Roleplay-Core/server/apis/VehiclesInventoryApi.js';
+//import * as VehicleInventoryAPi from '@Plugins/Roleplay-Core/server/apis/VehiclesInventoryApi.js';
 
-VehicleInventoryAPi.initfunc();
+//VehicleInventoryAPi.initfunc();
 
 
 /*
